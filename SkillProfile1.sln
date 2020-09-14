@@ -1,0 +1,104 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillProfile1", "SkillProfile1\SkillProfile1.csproj", "{E69BB100-D72C-4CD2-B348-D48FAE0996E5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{28D1A1F0-78A1-456A-919A-443BF6EB3B59} = {28D1A1F0-78A1-456A-919A-443BF6EB3B59}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAL", "BAL\BAL.csproj", "{28D1A1F0-78A1-456A-919A-443BF6EB3B59}"
+EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Report Project1", "Report Project1\Report Project1.rptproj", "{A17F49E8-001D-481B-B96C-1EE536CF14D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPS-SAPUploadResponse", "SPS-SAPUploadResponse\SPS-SAPUploadResponse.csproj", "{72E057F0-D4B3-471C-8F30-8F9C58DFEDA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPS-SAPUpload", "SPS-SAPUpload\SPS-SAPUpload.csproj", "{4529D2C4-FFA9-42E6-8D11-0AFFD7F522C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPS-SAPUploader", "SPS-SAPUploader\SPS-SAPUploader.csproj", "{5D108779-50F6-478C-B606-90DCFD05A708}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicAuthentication", "BasicAuthentication\BasicAuthentication.csproj", "{AC6ADB8F-E98F-4CAF-89F4-470088CAF51B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DebugLocal|Any CPU = DebugLocal|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E69BB100-D72C-4CD2-B348-D48FAE0996E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E69BB100-D72C-4CD2-B348-D48FAE0996E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E69BB100-D72C-4CD2-B348-D48FAE0996E5}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{E69BB100-D72C-4CD2-B348-D48FAE0996E5}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{E69BB100-D72C-4CD2-B348-D48FAE0996E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E69BB100-D72C-4CD2-B348-D48FAE0996E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28D1A1F0-78A1-456A-919A-443BF6EB3B59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28D1A1F0-78A1-456A-919A-443BF6EB3B59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28D1A1F0-78A1-456A-919A-443BF6EB3B59}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{28D1A1F0-78A1-456A-919A-443BF6EB3B59}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{28D1A1F0-78A1-456A-919A-443BF6EB3B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28D1A1F0-78A1-456A-919A-443BF6EB3B59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A17F49E8-001D-481B-B96C-1EE536CF14D9}.Debug|Any CPU.ActiveCfg = DebugLocal
+		{A17F49E8-001D-481B-B96C-1EE536CF14D9}.Debug|Any CPU.Build.0 = DebugLocal
+		{A17F49E8-001D-481B-B96C-1EE536CF14D9}.DebugLocal|Any CPU.ActiveCfg = DebugLocal
+		{A17F49E8-001D-481B-B96C-1EE536CF14D9}.DebugLocal|Any CPU.Build.0 = DebugLocal
+		{A17F49E8-001D-481B-B96C-1EE536CF14D9}.Release|Any CPU.ActiveCfg = Release
+		{A17F49E8-001D-481B-B96C-1EE536CF14D9}.Release|Any CPU.Build.0 = Release
+		{A17F49E8-001D-481B-B96C-1EE536CF14D9}.Release|Any CPU.Deploy.0 = Release
+		{72E057F0-D4B3-471C-8F30-8F9C58DFEDA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72E057F0-D4B3-471C-8F30-8F9C58DFEDA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72E057F0-D4B3-471C-8F30-8F9C58DFEDA2}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{72E057F0-D4B3-471C-8F30-8F9C58DFEDA2}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{72E057F0-D4B3-471C-8F30-8F9C58DFEDA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72E057F0-D4B3-471C-8F30-8F9C58DFEDA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4529D2C4-FFA9-42E6-8D11-0AFFD7F522C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4529D2C4-FFA9-42E6-8D11-0AFFD7F522C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4529D2C4-FFA9-42E6-8D11-0AFFD7F522C7}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{4529D2C4-FFA9-42E6-8D11-0AFFD7F522C7}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{4529D2C4-FFA9-42E6-8D11-0AFFD7F522C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4529D2C4-FFA9-42E6-8D11-0AFFD7F522C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D108779-50F6-478C-B606-90DCFD05A708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D108779-50F6-478C-B606-90DCFD05A708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D108779-50F6-478C-B606-90DCFD05A708}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D108779-50F6-478C-B606-90DCFD05A708}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{5D108779-50F6-478C-B606-90DCFD05A708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D108779-50F6-478C-B606-90DCFD05A708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC6ADB8F-E98F-4CAF-89F4-470088CAF51B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC6ADB8F-E98F-4CAF-89F4-470088CAF51B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC6ADB8F-E98F-4CAF-89F4-470088CAF51B}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC6ADB8F-E98F-4CAF-89F4-470088CAF51B}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{AC6ADB8F-E98F-4CAF-89F4-470088CAF51B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC6ADB8F-E98F-4CAF-89F4-470088CAF51B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {063427EA-510F-498B-8E73-2910C9178278}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfsalm:8080/tfs/eis
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SkillProfile1\\SkillProfile1.csproj
+		SccProjectName1 = SkillProfile1
+		SccLocalPath1 = SkillProfile1
+		SccProjectUniqueName2 = BAL\\BAL.csproj
+		SccProjectName2 = BAL
+		SccLocalPath2 = BAL
+		SccProjectUniqueName3 = Report\u0020Project1\\Report\u0020Project1.rptproj
+		SccProjectName3 = Report\u0020Project1
+		SccLocalPath3 = Report\u0020Project1
+		SccProjectUniqueName4 = SPS-SAPUploadResponse\\SPS-SAPUploadResponse.csproj
+		SccProjectName4 = SPS-SAPUploadResponse
+		SccLocalPath4 = SPS-SAPUploadResponse
+		SccProjectUniqueName5 = SPS-SAPUpload\\SPS-SAPUpload.csproj
+		SccProjectName5 = SPS-SAPUpload
+		SccLocalPath5 = SPS-SAPUpload
+		SccProjectUniqueName6 = SPS-SAPUploader\\SPS-SAPUploader.csproj
+		SccProjectName6 = SPS-SAPUploader
+		SccLocalPath6 = SPS-SAPUploader
+	EndGlobalSection
+EndGlobal
